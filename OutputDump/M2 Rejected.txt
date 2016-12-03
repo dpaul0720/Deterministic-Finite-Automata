@@ -1,0 +1,83 @@
+
+M1:DFA from Fig. 1.44
+String:  ba
+Step 1 # Rule 8 : q13 , b , q2
+Step 2 # Rule 3 : q2 , a , q23
+Rejected
+
+
+String:  bb
+Step 1 # Rule 8 : q13 , b , q2
+Step 2 # Rule 4 : q2 , b , q3
+Rejected
+
+
+String:  bbbb
+Step 1 # Rule 8 : q13 , b , q2
+Step 2 # Rule 4 : q2 , b , q3
+Step 3 # Rule 6 : q3 , b , q
+Step 4 # Rule 2 : q , b , q
+Rejected
+
+
+String:  babbbab
+Step 1 # Rule 8 : q13 , b , q2
+Step 2 # Rule 3 : q2 , a , q23
+Step 3 # Rule 10 : q23 , b , q3
+Step 4 # Rule 6 : q3 , b , q
+Step 5 # Rule 2 : q , b , q
+Step 6 # Rule 1 : q , a , q
+Step 7 # Rule 2 : q , b , q
+Rejected
+
+
+String:  bab
+Step 1 # Rule 8 : q13 , b , q2
+Step 2 # Rule 3 : q2 , a , q23
+Step 3 # Rule 10 : q23 , b , q3
+Rejected
+
+
+String:  baaab
+Step 1 # Rule 8 : q13 , b , q2
+Step 2 # Rule 3 : q2 , a , q23
+Step 3 # Rule 9 : q23 , a , q123
+Step 4 # Rule 11 : q123 , a , q123
+Step 5 # Rule 12 : q123 , b , q23
+Rejected
+
+
+String:  bbb
+Step 1 # Rule 8 : q13 , b , q2
+Step 2 # Rule 4 : q2 , b , q3
+Step 3 # Rule 6 : q3 , b , q
+Rejected
+
+
+String:  baaabbbbbbbbabbaabbaaab
+Step 1 # Rule 8 : q13 , b , q2
+Step 2 # Rule 3 : q2 , a , q23
+Step 3 # Rule 9 : q23 , a , q123
+Step 4 # Rule 11 : q123 , a , q123
+Step 5 # Rule 12 : q123 , b , q23
+Step 6 # Rule 10 : q23 , b , q3
+Step 7 # Rule 6 : q3 , b , q
+Step 8 # Rule 2 : q , b , q
+Step 9 # Rule 2 : q , b , q
+Step 10 # Rule 2 : q , b , q
+Step 11 # Rule 2 : q , b , q
+Step 12 # Rule 2 : q , b , q
+Step 13 # Rule 1 : q , a , q
+Step 14 # Rule 2 : q , b , q
+Step 15 # Rule 2 : q , b , q
+Step 16 # Rule 1 : q , a , q
+Step 17 # Rule 1 : q , a , q
+Step 18 # Rule 2 : q , b , q
+Step 19 # Rule 2 : q , b , q
+Step 20 # Rule 1 : q , a , q
+Step 21 # Rule 1 : q , a , q
+Step 22 # Rule 1 : q , a , q
+Step 23 # Rule 2 : q , b , q
+Rejected
+
+

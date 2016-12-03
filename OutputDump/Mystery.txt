@@ -1,0 +1,160 @@
+Mystery Machine
+String:  do
+Step 1 # Rule 8 : 1 , d , 0
+Step 2 # Rule 5 : 0 , o , 0
+Rejected
+
+
+String:  mdzzzo
+Step 1 # Rule 7 : 1 , m , 9
+Step 2 # Rule 48 : 9 , d , 0
+Step 3 # Rule 4 : 0 , z , 0
+Step 4 # Rule 4 : 0 , z , 0
+Step 5 # Rule 4 : 0 , z , 0
+Step 6 # Rule 5 : 0 , o , 0
+Rejected
+
+
+String:  mp
+Step 1 # Rule 7 : 1 , m , 9
+Step 2 # Rule 46 : 9 , p , 0
+Rejected
+
+
+String:  mz
+Step 1 # Rule 7 : 1 , m , 9
+Step 2 # Rule 49 : 9 , z , 10
+Rejected
+
+
+String:  mzd
+Step 1 # Rule 7 : 1 , m , 9
+Step 2 # Rule 49 : 9 , z , 10
+Step 3 # Rule 53 : 10 , d , 11
+Rejected
+
+
+String:  mzdo
+Step 1 # Rule 7 : 1 , m , 9
+Step 2 # Rule 49 : 9 , z , 10
+Step 3 # Rule 53 : 10 , d , 11
+Step 4 # Rule 60 : 11 , o , 7
+Accepted
+
+
+String:  mzdz
+Step 1 # Rule 7 : 1 , m , 9
+Step 2 # Rule 49 : 9 , z , 10
+Step 3 # Rule 53 : 10 , d , 11
+Step 4 # Rule 59 : 11 , z , 8
+Rejected
+
+
+String:  mzdzzo
+Step 1 # Rule 7 : 1 , m , 9
+Step 2 # Rule 49 : 9 , z , 10
+Step 3 # Rule 53 : 10 , d , 11
+Step 4 # Rule 59 : 11 , z , 8
+Step 5 # Rule 44 : 8 , z , 8
+Step 6 # Rule 45 : 8 , o , 7
+Accepted
+
+
+String:  mzdzzz
+Step 1 # Rule 7 : 1 , m , 9
+Step 2 # Rule 49 : 9 , z , 10
+Step 3 # Rule 53 : 10 , d , 11
+Step 4 # Rule 59 : 11 , z , 8
+Step 5 # Rule 44 : 8 , z , 8
+Step 6 # Rule 44 : 8 , z , 8
+Rejected
+
+
+String:  pd
+Step 1 # Rule 6 : 1 , p , 2
+Step 2 # Rule 13 : 2 , d , 0
+Rejected
+
+
+String:  pdo
+Step 1 # Rule 6 : 1 , p , 2
+Step 2 # Rule 13 : 2 , d , 0
+Step 3 # Rule 5 : 0 , o , 0
+Rejected
+
+
+String:  pm
+Step 1 # Rule 6 : 1 , p , 2
+Step 2 # Rule 12 : 2 , m , 0
+Rejected
+
+
+String:  pz
+Step 1 # Rule 6 : 1 , p , 2
+Step 2 # Rule 14 : 2 , z , 3
+Accepted
+
+
+String:  pzdz
+Step 1 # Rule 6 : 1 , p , 2
+Step 2 # Rule 14 : 2 , z , 3
+Step 3 # Rule 18 : 3 , d , 5
+Step 4 # Rule 29 : 5 , z , 6
+Accepted
+
+
+String:  pzdzzo
+Step 1 # Rule 6 : 1 , p , 2
+Step 2 # Rule 14 : 2 , z , 3
+Step 3 # Rule 18 : 3 , d , 5
+Step 4 # Rule 29 : 5 , z , 6
+Step 5 # Rule 34 : 6 , z , 8
+Step 6 # Rule 45 : 8 , o , 7
+Accepted
+
+
+String:  pzdzzo
+Step 1 # Rule 6 : 1 , p , 2
+Step 2 # Rule 14 : 2 , z , 3
+Step 3 # Rule 18 : 3 , d , 5
+Step 4 # Rule 29 : 5 , z , 6
+Step 5 # Rule 34 : 6 , z , 8
+Step 6 # Rule 45 : 8 , o , 7
+Accepted
+
+
+String:  z
+Step 1 # Rule 9 : 1 , z , 3
+Accepted
+
+
+String:  zdo
+Step 1 # Rule 9 : 1 , z , 3
+Step 2 # Rule 18 : 3 , d , 5
+Step 3 # Rule 30 : 5 , o , 7
+Accepted
+
+
+String:  zdz
+Step 1 # Rule 9 : 1 , z , 3
+Step 2 # Rule 18 : 3 , d , 5
+Step 3 # Rule 29 : 5 , z , 6
+Accepted
+
+
+String:  zdzo
+Step 1 # Rule 9 : 1 , z , 3
+Step 2 # Rule 18 : 3 , d , 5
+Step 3 # Rule 29 : 5 , z , 6
+Step 4 # Rule 35 : 6 , o , 7
+Accepted
+
+
+String:  zdzz
+Step 1 # Rule 9 : 1 , z , 3
+Step 2 # Rule 18 : 3 , d , 5
+Step 3 # Rule 29 : 5 , z , 6
+Step 4 # Rule 34 : 6 , z , 8
+Rejected
+
+

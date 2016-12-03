@@ -1,0 +1,57 @@
+M3:DFA from Hopcroft p 50
+String:  1
+Step 1 # Rule 1 : q0 , 1 , q1
+Rejected
+
+
+String:  0
+Step 1 # Rule 2 : q0 , 0 , q2
+Rejected
+
+
+String:  110
+Step 1 # Rule 1 : q0 , 1 , q1
+Step 2 # Rule 3 : q1 , 1 , q0
+Step 3 # Rule 2 : q0 , 0 , q2
+Rejected
+
+
+String:  010
+Step 1 # Rule 2 : q0 , 0 , q2
+Step 2 # Rule 5 : q2 , 1 , q3
+Step 3 # Rule 8 : q3 , 0 , q1
+Rejected
+
+
+String:  11000
+Step 1 # Rule 1 : q0 , 1 , q1
+Step 2 # Rule 3 : q1 , 1 , q0
+Step 3 # Rule 2 : q0 , 0 , q2
+Step 4 # Rule 6 : q2 , 0 , q0
+Step 5 # Rule 2 : q0 , 0 , q2
+Rejected
+
+
+String:  00111
+Step 1 # Rule 2 : q0 , 0 , q2
+Step 2 # Rule 6 : q2 , 0 , q0
+Step 3 # Rule 1 : q0 , 1 , q1
+Step 4 # Rule 3 : q1 , 1 , q0
+Step 5 # Rule 1 : q0 , 1 , q1
+Rejected
+
+
+String:  1011011011
+Step 1 # Rule 1 : q0 , 1 , q1
+Step 2 # Rule 4 : q1 , 0 , q3
+Step 3 # Rule 7 : q3 , 1 , q2
+Step 4 # Rule 5 : q2 , 1 , q3
+Step 5 # Rule 8 : q3 , 0 , q1
+Step 6 # Rule 3 : q1 , 1 , q0
+Step 7 # Rule 1 : q0 , 1 , q1
+Step 8 # Rule 4 : q1 , 0 , q3
+Step 9 # Rule 7 : q3 , 1 , q2
+Step 10 # Rule 5 : q2 , 1 , q3
+Rejected
+
+

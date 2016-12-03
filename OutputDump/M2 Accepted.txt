@@ -1,0 +1,70 @@
+M1:DFA from Fig. 1.44
+String:  a
+Step 1 # Rule 7 : q13 , a , q13
+Accepted
+
+
+String:  baa
+Step 1 # Rule 8 : q13 , b , q2
+Step 2 # Rule 3 : q2 , a , q23
+Step 3 # Rule 9 : q23 , a , q123
+Accepted
+
+
+String:  baba
+Step 1 # Rule 8 : q13 , b , q2
+Step 2 # Rule 3 : q2 , a , q23
+Step 3 # Rule 10 : q23 , b , q3
+Step 4 # Rule 5 : q3 , a , q13
+Accepted
+
+
+String:  ababa
+Step 1 # Rule 7 : q13 , a , q13
+Step 2 # Rule 8 : q13 , b , q2
+Step 3 # Rule 3 : q2 , a , q23
+Step 4 # Rule 10 : q23 , b , q3
+Step 5 # Rule 5 : q3 , a , q13
+Accepted
+
+
+String:  aaabbaaa
+Step 1 # Rule 7 : q13 , a , q13
+Step 2 # Rule 7 : q13 , a , q13
+Step 3 # Rule 7 : q13 , a , q13
+Step 4 # Rule 8 : q13 , b , q2
+Step 5 # Rule 4 : q2 , b , q3
+Step 6 # Rule 5 : q3 , a , q13
+Step 7 # Rule 7 : q13 , a , q13
+Step 8 # Rule 7 : q13 , a , q13
+Accepted
+
+
+String:  ababaaa
+Step 1 # Rule 7 : q13 , a , q13
+Step 2 # Rule 8 : q13 , b , q2
+Step 3 # Rule 3 : q2 , a , q23
+Step 4 # Rule 10 : q23 , b , q3
+Step 5 # Rule 5 : q3 , a , q13
+Step 6 # Rule 7 : q13 , a , q13
+Step 7 # Rule 7 : q13 , a , q13
+Accepted
+
+
+String:  ababaabaabaaa
+Step 1 # Rule 7 : q13 , a , q13
+Step 2 # Rule 8 : q13 , b , q2
+Step 3 # Rule 3 : q2 , a , q23
+Step 4 # Rule 10 : q23 , b , q3
+Step 5 # Rule 5 : q3 , a , q13
+Step 6 # Rule 7 : q13 , a , q13
+Step 7 # Rule 8 : q13 , b , q2
+Step 8 # Rule 3 : q2 , a , q23
+Step 9 # Rule 9 : q23 , a , q123
+Step 10 # Rule 12 : q123 , b , q23
+Step 11 # Rule 9 : q23 , a , q123
+Step 12 # Rule 11 : q123 , a , q123
+Step 13 # Rule 11 : q123 , a , q123
+Accepted
+
+
