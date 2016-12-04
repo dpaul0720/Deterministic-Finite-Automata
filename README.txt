@@ -1,5 +1,4 @@
 Paul Lee
-plee4
 
 
 This is the DFA that I wrote.
